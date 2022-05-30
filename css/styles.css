@@ -305,7 +305,9 @@ address {
 }
 
 .footer-container {
-    text-align: inherit;
+    display: flex;    
+    align-content: center;
+    flex-direction: column;
 }
 
 .contact-footer-address {    
@@ -313,6 +315,7 @@ address {
     line-height: 1.71;    
     letter-spacing: 0.03em;    
     color: #FFFFFF;
+    
 }
 
 .contact-footer-mail {        
@@ -340,6 +343,10 @@ address {
 
 .logo-footer {
     padding-top: 60px;
+    margin-bottom: 20px;
+}
+.contact-footer-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 /* ==============/FOOTER================= */
 
@@ -348,7 +355,7 @@ address {
 .navigation-list {
     display: flex;
     padding-bottom: 34px;
-    text-align: center;
+    justify-content: center;
     }
 
 .our-projects {
