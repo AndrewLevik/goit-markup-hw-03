@@ -299,6 +299,10 @@ body {
     flex-wrap: wrap;
 }
 
+.our-works {
+    padding-top: 0px;
+}
+
 .our-works-card:not(:last-child) {
     margin-right: 30px;
 }
